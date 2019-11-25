@@ -1,0 +1,16 @@
+{
+  "name": "fs-tidy-no-gui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max_old_space_size=4096 index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "node-dir": "^0.1.17"
+  }
+}
